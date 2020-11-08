@@ -25,8 +25,8 @@ h2 {
     margin: 0 auto;
     width: 400px;
     text-align: center;
-    box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
-    border: 2px solid #aaa;
+    box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
+    border: 1px solid #aaa;
 }
 
 .card .avatar {
@@ -53,12 +53,8 @@ h2 {
     padding: 20px 10px;
 }
 
-.contacts li a img hover{
+.contacts li a img:hover{
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
 }
 
-.card .icon hover{
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.2s;
-}
